@@ -6,5 +6,5 @@ function you_num() {
         fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
     }
     document.getElementById('ansver').innerHTML = 'Ряд Фібоначчі = ' + fibonacci;
-    
+    document.getElementById('ansver2').innerHTML = 'Ряд Фібоначчі = ' + fibonacci[i - 1];
     }
